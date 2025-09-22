@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Custom Engrave Studio - Links</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Logo (Replace logo.png with your file path) -->
-  <img src="logo.png" alt="Custom Engrave Studio Logo" class="logo">
 
-  <h1>Custom Engrave Studio</h1>
-  <p class="slogan">Crafter with Care, made just for you.</p>
-  
-  <div class="link-container">
-    <a href="#" class="minecraft-btn" target="_blank"><span>🌐 Website - Coming Soon</span></a>
-    <a href="#" class="minecraft-btn" target="_blank"><span>📸 Instagram</span></a>
-    <a href="#" class="minecraft-btn" target="_blank"><span>🎵 TikTok</span></a>
-  </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Engrave Studio - Social Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="small-logo.png" type="image/x-icon">
+    <!-- Brevo Conversations {literal} -->
+    <script>
+        (function (d, w, c) {
+            w.BrevoConversationsID = '68d10f7fb1aaa54795019889';
+            w[c] = w[c] || function () {
+                (w[c].q = w[c].q || []).push(arguments);
+            };
+            var s = d.createElement('script');
+            s.async = true;
+            s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+            if (d.head) d.head.appendChild(s);
+        })(document, window, 'BrevoConversations');
+    </script>
+    <!-- /Brevo Conversations {/literal} -->
+</head>
+
+<body>
+    <!-- Logo (Replace logo.png with your file path) -->
+    <img src="logo.png" alt="Custom Engrave Studio Logo" class="logo">
+
+    <h1>Custom Engrave Studio</h1>
+    <p class="slogan">Crafted with Care, made just for you.</p>
+
+    <div class="link-container">
+        <a href="#" class="minecraft-btn" onclick="alert('Website - Coming Soon')"><span>🌐 Website - Coming Soon</span></a>
+        <a href="instagram://user?username=custom_engrave_studio"
+            onclick="openApp(event, 'instagram://user?username=custom_engrave_studio', 'https://www.instagram.com/custom_engrave_studio/')"
+            class="minecraft-btn"><span>📸 Instagram</span></a>
+        <a href="https://www.tiktok.com/@custom.engrave.st?_t=ZS-8zw68G2nAkT&_r=1"
+            onclick="openApp(event, 'tiktok://user?uniqueId=custom.engrave.st', 'https://www.tiktok.com/@custom.engrave.st?_t=ZS-8zw68G2nAkT&_r=1')"
+            class="minecraft-btn"><span>🎵 TikTok</span></a>
+        <p class="slogan"> Chat with me immediately on Chatbot on top right corner. 
+            <br>Connect with me on social media and stay updated.</p>
+
+    </div>
+    <script>
+        function openApp(event, appUrl, webUrl) {
+            event.preventDefault();
+            // Try opening the app
+            let now = Date.now();
+            window.location = appUrl;
+        }
+    </script>
 </body>
+
 </html>
