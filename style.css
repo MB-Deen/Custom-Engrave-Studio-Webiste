@@ -32,9 +32,9 @@ body {
 
     .slogan {
       font-size: 1rem;
-      font-weight: 400;
+      font-weight: 600;
       margin-bottom: 25px;
-      color: #cfcfcf;
+      color: #3c862e;
       animation: fadeIn 2.2s ease;
     }
 
