@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Symtext';
-    src: url('Symtext.woff2') format('woff2'),
-        url('Symtext.woff') format('woff');
+    src: url('fonts/Symtext.woff2') format('woff2'),
+        url('fonts/Symtext.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Pixel Digivolve';
-    src: url('PixelDigivolve.woff2') format('woff2'),
-        url('PixelDigivolve.woff') format('woff');
+    src: url('fonts/PixelDigivolve.woff2') format('woff2'),
+        url('fonts/PixelDigivolve.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
