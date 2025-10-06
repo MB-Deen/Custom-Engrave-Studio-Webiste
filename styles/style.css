@@ -1,6 +1,25 @@
+@font-face {
+    font-family: 'Symtext';
+    src: url('Symtext.woff2') format('woff2'),
+        url('Symtext.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixel Digivolve';
+    src: url('PixelDigivolve.woff2') format('woff2'),
+        url('PixelDigivolve.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
       margin: 0;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Pixel Digivolve', 'Poppins', sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -87,7 +106,6 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Courier New', monospace;
     color: #fff;
     background: black;
     border: 4px solid #1e3d12;
